@@ -1,8 +1,22 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Open_Sans } from "next/font/google";
+import type { Viewport } from "next";
+import {  Playfair_Display } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/header/header";
+import Footer from "@/components/footer/footer";
 
 const inter = Inter({ subsets: ["latin"] });
+const openSans = Open_Sans({ subsets: ["latin"] });
+
+export const viewport: Viewport = {
+	width: "device-width",
+	initialScale: 1,
+	userScalable: true,
+	themeColor: "black",
+	interactiveWidget: "resizes-visual",
+};
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +29,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="fr">
+      <body className={openSans.className}><Header />{children}<Footer /></body>
     </html>
   );
 }
