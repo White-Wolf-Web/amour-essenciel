@@ -1,6 +1,7 @@
 import Image from "next/image";
 import CheminDeVie from '../../public/img/chemin-de-vie-amour-essenciel.webp'
 import type { Metadata } from "next";
+import { MetadataHomePage } from "@/components/metadata/MetadataHomePage";
 
 export const metadata: Metadata = {
 	title: "Soin énergétique - Massage | Courcelles | Amour EssenCiel",
@@ -52,6 +53,7 @@ export default function Home() {
 	<p>Proverbe indien</p>
 	</div>
 	<Image src={CheminDeVie} alt="Chemin de vie dans l'amour essentiel" width={71} height={262}  title="Le chemin de vie" className="mx-auto" />
+	<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataHomePage) }} />
 		</main>
 	);
 }
