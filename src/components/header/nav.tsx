@@ -83,9 +83,9 @@ export default function Nav() {
 					</div>
 				</li>
 			</ul>
-			<Link href="/ateliers" className="text-base font-medium text-black hover:text-orange-500 active:text-orange-500">
+			{/*<Link href="/ateliers" className="  text-base font-medium text-black hover:text-orange-500 active:text-orange-500">
 				ATELIERS
-			</Link>
+	</Link>*/}
 			<Link href="/tarifs" className="text-base font-medium text-black hover:text-orange-500 active:text-orange-500">
 				TARIFS
 			</Link>
