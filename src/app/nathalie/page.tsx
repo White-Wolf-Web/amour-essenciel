@@ -27,12 +27,12 @@ export default function Nathalie() {
 				<h2 className="text-left text-base">Quelques citations que j’aime particulièrement</h2>
 
 				<p>
-					{" "}
+					
 					<em>«Sois le changement que tu veux voir dans le monde»&ensp;</em>Gandhi
 				</p>
 
 				<p>
-					{" "}
+					
 					<em>«La vie n’est pas d’attendre que l’orage passe, c’est d’apprendre à danser sous la pluie»</em>&ensp;Sénèque
 				</p>
 

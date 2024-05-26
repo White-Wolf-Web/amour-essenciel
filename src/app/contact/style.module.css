@@ -1,0 +1,7 @@
+.googleMapContainer iframe {
+    width: 100%; 
+    height: 450px; 
+    border: 0;
+    border-radius: 7px;
+    overflow: hidden;
+  }
