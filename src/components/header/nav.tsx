@@ -6,11 +6,19 @@ import Style from "./header.module.css";
 export default function Nav() {
 	const [activeMenu, setActiveMenu] = useState<string | null>(null);
 	const hoverTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-
 	const [isLinkDisabled, setIsLinkDisabled] = useState(true);
+	const [isSmallScreen, setIsSmallScreen] = useState(false);
 
 	useEffect(() => {
+		const handleResize = () => {
+			setIsSmallScreen(window.innerWidth < 768);
+		};
+
+		window.addEventListener("resize", handleResize);
+		handleResize();
+
 		return () => {
+			window.removeEventListener("resize", handleResize);
 			if (hoverTimer.current) {
 				clearTimeout(hoverTimer.current);
 			}
@@ -21,32 +29,44 @@ export default function Nav() {
 		if (hoverTimer.current) {
 			clearTimeout(hoverTimer.current);
 		}
-		setActiveMenu(menu);
+		if (!isSmallScreen) {
+			setActiveMenu(menu);
+		}
 	};
 
 	const handleMouseLeave = () => {
 		if (hoverTimer.current) {
 			clearTimeout(hoverTimer.current);
 		}
-		hoverTimer.current = setTimeout(() => {
-			setActiveMenu(null);
-		}, 700);
+		if (!isSmallScreen) {
+			hoverTimer.current = setTimeout(() => {
+				setActiveMenu(null);
+			}, 700);
+		}
+	};
+
+	const handleClick = (menu: string) => {
+		if (isSmallScreen) {
+			setActiveMenu(activeMenu === menu ? null : menu);
+		}
 	};
 
 	return (
-		<nav id="nav"  className="flex justify-center items-center space-x-2 sm:space-x-8 text-center shadow relative z-10 min-h-[60px]  ">
-			<Link href="/" className="text-base font-medium  hover:text-orange-500 active:text-orange-500">
+		<nav id="nav" className="flex justify-center items-center space-x-2 sm:space-x-8 text-center shadow relative z-10 min-h-[60px]">
+			<Link href="/" className="text-base font-medium hover:text-orange-500 active:text-orange-500">
 				ACCUEIL
 			</Link>
 			<Link href="/nathalie" className="text-base font-medium hover:text-orange-500 active:text-orange-500">
 				QUI SUIS JE ?
 			</Link>
-
 			<ul>
-				<li className={Style.relative} onMouseEnter={() => handleMouseEnter("services")} onMouseLeave={handleMouseLeave}>
-					
-						SOINS
-				
+				<li
+					className={Style.relative}
+					onMouseEnter={() => handleMouseEnter("services")}
+					onMouseLeave={handleMouseLeave}
+					onClick={() => handleClick("services")}
+				>
+					SOINS
 					<div className={`${Style.dropdownMenu} ${activeMenu === "services" ? Style.show : ""}`}>
 						<ul>
 							<li>
@@ -83,10 +103,7 @@ export default function Nav() {
 					</div>
 				</li>
 			</ul>
-			{/*<Link href="/ateliers" className="  text-base font-medium text-black hover:text-orange-500 active:text-orange-500">
-				ATELIERS
-	</Link>*/}
-			<Link href="/tarifs" className="text-base font-medium  hover:text-orange-500 active:text-orange-500">
+			<Link href="/tarifs" className="text-base font-medium hover:text-orange-500 active:text-orange-500">
 				TARIFS
 			</Link>
 			<Link href="/contact" className="text-base font-medium hover:text-orange-500 active:text-orange-500">

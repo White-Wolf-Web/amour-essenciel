@@ -4,7 +4,7 @@ import BrainGymImg from '../../../../public/img/brain-gym.webp'
 export default function BrainGym () {
   return (
    <main>
-<h1>BrainGym pour enfants</h1>
+<h1>BrainGym pour Enfants</h1>
 <p>Mise au point aux Etats-Unis par le chercheur Paul Dennison, le « <strong>Brain Gym</strong> » propose 26 mouvements simples qui permettent d’intégrer et de développer des compétences. Certains aident à évacuer les tensions pour mieux se concentrer. D’autres favorisent la compréhension et la mise en mémoire en stimulant les deux hémisphères du cerveau, d’autres encore peuvent aider à mieux lire ou à équilibrer les émotions.</p>
 <p>Cette approche a déjà fait ses preuves dans des structures d’enseignement en Belgique et ailleurs.</p>
 <p>C’est une technique mis en place au départ pour l’accompagnement des enfants en difficulté scolaire mais qui, par les <strong>résultats positifs</strong> obtenus, s’adresse aujourd’hui à tout type de profil d’enfant et même d’adulte en parcours d’études.</p>

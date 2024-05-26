@@ -4,7 +4,7 @@ import ReflexologiePalmaireImg from "../../../../public/img/reflexologie-palmair
 export default function ReflexologiePalmaire() {
 	return (
 		<main>
-			<h1>Réflexologie palmaire</h1>
+			<h1>Réflexologie Palmaire</h1>
 
 			<p>
 				Le massage des mains est moins connu que le massage des pieds et pourtant il est tout aussi bénéfique. Tout comme les pieds, les mains ont des zones réflexes qui correspondent aux

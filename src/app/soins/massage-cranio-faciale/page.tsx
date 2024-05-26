@@ -4,7 +4,7 @@ import CranioFacialImg from '../../../../public/img/massage-du-visage.webp'
 export default function MassageCranioFaciale() {
 	return (
 		<main>
-			<h1>Massage cranio-facial</h1>
+			<h1>Massage Cranio-Facial</h1>
 			<p>
 				La réflexologie faciale et crânienne est une technique de relaxation manuelle, inspirée de la médecine traditionnelle chinoise, partant du postulat que tout le corps est représenté sur
 				le visage. En stimulant des points spécifiques, il est possible de soulager le corps dans sa globalité.
