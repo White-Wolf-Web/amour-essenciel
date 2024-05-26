@@ -5,6 +5,7 @@ export default function ReflexologiePalmaire() {
 	return (
 		<main>
 			<h1>Réflexologie palmaire</h1>
+
 			<p>
 				Le massage des mains est moins connu que le massage des pieds et pourtant il est tout aussi bénéfique. Tout comme les pieds, les mains ont des zones réflexes qui correspondent aux
 				différentes parties du corps ou à un organe.
@@ -19,7 +20,7 @@ export default function ReflexologiePalmaire() {
 				<li className="bullet-point">Excellent pour la circulation sanguine et lymphatique.</li>
 			</ul>
 			<p>
-				Pour encore plus de détente, vous pouvez choisir de combiner la séance de réflexologie palmaire avec une séance de 30 minutes de massage crânio-facial<p></p>Durée de la séance complète
+				Pour encore plus de détente, vous pouvez choisir de combiner la séance de réflexologie palmaire avec une séance de 30 minutes de massage crânio-facial</p><p>Durée de la séance complète
 				(accueil + soin) : 45 min ou 1h15 avec le massage crânio-facial.
 			</p>
 

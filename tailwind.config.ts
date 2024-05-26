@@ -16,6 +16,7 @@ const config: Config = {
         'playfair': ['Playfair Display', 'serif']
       }
     }, screens: {
+      'xxs': '400px',
       'xs': '440px', 
       'sm': '640px',
       'md': '768px',

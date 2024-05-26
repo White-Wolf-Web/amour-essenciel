@@ -14,7 +14,7 @@ export default function Nathalie() {
 					Je souhaite contribuer à l’éveil d’une conscience nouvelle : celle que nous sommes infiniment plus que ce qui nous définit au travers d’une fonction, d’un titre, d’une apparence
 					physique, … et permettre aux Êtres humains de renouer avec leur pouvoir créateur afin que chacun puisse exprimer son plein potentiel.
 				</p>
-				<p className="my-2 text-gray-700">
+				<p className="my-2">
 					Par les soins énergétiques et les massages que je vous propose, je vous invite à vous reconnecter à l’Être lumineux que vous êtes en vous accordant un moment privilégié de
 					relaxation.
 				</p>

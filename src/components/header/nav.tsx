@@ -34,11 +34,11 @@ export default function Nav() {
 	};
 
 	return (
-		<nav className="flex justify-center items-center space-x-2 sm:space-x-8 bg-white text-center shadow relative z-10 min-h-[60px]  ">
-			<Link href="/" className="text-base font-medium text-black hover:text-orange-500 active:text-orange-500">
+		<nav id="nav"  className="flex justify-center items-center space-x-2 sm:space-x-8 text-center shadow relative z-10 min-h-[60px]  ">
+			<Link href="/" className="text-base font-medium  hover:text-orange-500 active:text-orange-500">
 				ACCUEIL
 			</Link>
-			<Link href="/nathalie" className="text-base font-medium text-black hover:text-orange-500 active:text-orange-500">
+			<Link href="/nathalie" className="text-base font-medium hover:text-orange-500 active:text-orange-500">
 				QUI SUIS JE ?
 			</Link>
 
@@ -76,7 +76,7 @@ export default function Nav() {
 							</li>
 							<li>
 								<Link href="/soins/braingym" className={Style.dropdownItem}>
-									SÉANCE DE BRAINGYM POUR ENFANTS
+									BRAINGYM POUR ENFANTS
 								</Link>
 							</li>
 						</ul>
@@ -86,10 +86,10 @@ export default function Nav() {
 			{/*<Link href="/ateliers" className="  text-base font-medium text-black hover:text-orange-500 active:text-orange-500">
 				ATELIERS
 	</Link>*/}
-			<Link href="/tarifs" className="text-base font-medium text-black hover:text-orange-500 active:text-orange-500">
+			<Link href="/tarifs" className="text-base font-medium  hover:text-orange-500 active:text-orange-500">
 				TARIFS
 			</Link>
-			<Link href="/contact" className="text-base font-medium text-black hover:text-orange-500 active:text-orange-500">
+			<Link href="/contact" className="text-base font-medium hover:text-orange-500 active:text-orange-500">
 				CONTACT
 			</Link>
 		</nav>
