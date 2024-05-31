@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
 	title: "Reiki à Courcelles",
-	description: "Reiki à Courcelles, c'est une pratique de guérison holistique qui trouve son origine au Japon.",
+	description: "Reiki à Courcelles, c'est une pratique de guérison holistique qui trouve son origine au Japon. signifie « force de Vie Universelle »",
 	alternates: {
 		canonical: "https://www.amour-essenciel.com/soins/reiki",
 	} }

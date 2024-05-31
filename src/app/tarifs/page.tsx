@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
 	title: "Prix massage à Courcelles",
-	description: "Vous trouverez ici tous les tarifs pratiqués",
+	description: "Vous trouverez ici tous les tarifs pratiqués, tel que massage LaHoChi à 60 € pour 1 heure",
 	alternates: {
 		canonical: "https://www.amour-essenciel.com/tarifs",
 	} }
