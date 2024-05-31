@@ -6,6 +6,15 @@ import ReflexologiePalmairePriceImg from "../../../public/img/reflexologie-palma
 import LahochiPriceImg from "../../../public/img/lahochi-tarif.webp";
 import SoinEnelphPriceImg from "../../../public/img/soin-enelph-tarif.webp";
 import ReikiPriceImg from "../../../public/img/reiki-tarif.webp";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Prix massage à Courcelles",
+	description: "Vous trouverez ici tous les tarifs pratiqués",
+	alternates: {
+		canonical: "https://www.amour-essenciel.com/tarifs",
+	} }
+
 
 export default function Tarifs() {
 	return (

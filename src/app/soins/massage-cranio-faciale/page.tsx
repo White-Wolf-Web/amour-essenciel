@@ -1,6 +1,17 @@
 import Image from "next/image";
 import CranioFacialImg from '../../../../public/img/massage-du-visage.webp'
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Massage Cranio-Faciale à Courcelles ",
+	description: "Massage Cranio-Faciale à Courcelles, c'est une technique de relaxation manuelle, inspirée de la médecine traditionnelle chinoise,",
+	alternates: {
+		canonical: "https://www.amour-essenciel.com/soins/massage-cranio-faciale",
+	} }
+
+
+
 export default function MassageCranioFaciale() {
 	return (
 		<main>

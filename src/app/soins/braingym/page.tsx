@@ -1,6 +1,13 @@
 import Image from "next/image"
 import BrainGymImg from '../../../../public/img/brain-gym.webp'
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+	title: "BrainGym pour Enfants à Courcelles ",
+	description: "BrainGym pour Enfants à Courcelles. Découvrez nos soins personnalisés et retrouvez l'harmonie, bien-être et sérénité dans un cadre apaisant.",
+	alternates: {
+		canonical: "https://www.amour-essenciel.com/soins/braingym",
+	} }
 export default function BrainGym () {
   return (
    <main>

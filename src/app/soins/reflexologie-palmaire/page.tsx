@@ -1,5 +1,13 @@
 import Image from "next/image";
 import ReflexologiePalmaireImg from "../../../../public/img/reflexologie-palmaire.webp";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Réflexologie palmaire à Courcelles ",
+	description: "Réflexologie palmaire à Courcelles, Le massage des mains est moins connu que le massage des pieds et pourtant il est tout aussi bénéfique.",
+	alternates: {
+		canonical: "https://www.amour-essenciel.com/soins/reflexologie-palmaire",
+	} }
 
 export default function ReflexologiePalmaire() {
 	return (

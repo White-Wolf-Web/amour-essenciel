@@ -1,5 +1,14 @@
 import Image from "next/image";
 import SoinEnelphImg from "../../../../public/img/soin-enelph.webp";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Soin Enelph à Courcelles",
+	description: "Soin Enelph à Courcelles, c' est une énergie qui vous remet en contact avec l’Amour, l’Amour de Soi, l’Amour de la Vie.",
+	alternates: {
+		canonical: "https://www.amour-essenciel.com/soins/soin-enelph",
+	} }
+
 
 export default function SoinEnelph() {
 	return (

@@ -1,5 +1,13 @@
 import LahochiImg from "../../../../public/img/lahochi.webp";
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Massage LaHoChi à Courcelles ",
+	description: "Massage LaHoChi à Courcelles est une technique de soin puissante qui nous relie à une très haute fréquence de lumière",
+	alternates: {
+		canonical: "https://www.amour-essenciel.com/soins/lahochi",
+	} }
 
 export default function Lahochi() {
 	return (

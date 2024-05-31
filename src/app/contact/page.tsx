@@ -1,5 +1,14 @@
 import React from 'react'
 import styles from './style.module.css'
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Pa ge de contact pour un massage à Courcelles",
+	description: "Vous trouverez ici comment me contacter",
+	alternates: {
+		canonical: "https://www.amour-essenciel.com/contact",
+	} }
+
 
 export default function Contact () {
   return (

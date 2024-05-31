@@ -1,5 +1,14 @@
 import Image from "next/image";
 import ReikiImg from "../../../../public/img/symbole-reiki.webp";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Reiki à Courcelles",
+	description: "Reiki à Courcelles, c'est une pratique de guérison holistique qui trouve son origine au Japon.",
+	alternates: {
+		canonical: "https://www.amour-essenciel.com/soins/reiki",
+	} }
+
 
 export default function Reiki() {
 	return (
