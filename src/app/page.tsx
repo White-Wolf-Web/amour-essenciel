@@ -8,18 +8,18 @@ export const metadata: Metadata = {
 	description:
 		"A Courcelles, chez ‘Amour-EssenCiel’, un soin énergétique, un massage c'est faire l'expérience d'un moment de présence à soi, d'amour et de gratitude.",
 		alternates: {
-		canonical: "https://amour-essenciel.com/",
+		canonical: "https://www.amour-essenciel.com",
 	},	openGraph: {
 		title: "Soin énergétique - Massage | Courcelles | Amour EssenCiel",
 			description:
 			"A Courcelles, chez ‘Amour-EssenCiel’, un soin énergétique, un massage c'est faire l'expérience d'un moment de présence à soi, d'amour et de gratitude.",
-			url: "https://amour-essenciel.com/",
+			url: "https://www.amour-essenciel.com",
 			siteName: "Soin énergétique - Massage | Courcelles | Amour EssenCiel",
 			locale: "fr_BE",
 			type: "website",
 			images: [
 				{
-					url: "https://amour-essenciel.com/img/banniere-amour-essentiel.webp",
+					url: "https://www.amour-essenciel.com/img/banniere-amour-essentiel.webp",
 					width: 1302,
 					height: 500,
 					alt: "Amour EssenCiel - pour vous relier à l'Essentiel",
