@@ -57,7 +57,7 @@ export default function Nav() {
 				ACCUEIL
 			</Link>
 			<Link href="/nathalie" className="text-base font-medium hover:text-orange-500 active:text-orange-500">
-				QUI SUIS JE ?
+				QUI JE SUIS
 			</Link>
 			<ul>
 				<li
