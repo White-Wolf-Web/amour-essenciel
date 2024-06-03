@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
 	return (
-		<footer className="text-xs  flex-col  justify-around md:flex py-2 mt-5 rounded-t">
+		<footer className="text-xs flex flex-col md:flex-row justify-around py-2 mt-5 rounded-t">
 			<div className="flex justify-around">
 				<Link href="https://www.creation-site-internet.dev/">
 					<p>Créé par CSI</p>
