@@ -3,7 +3,7 @@ import styles from './style.module.css'
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Pa ge de contact pour un massage à Courcelles",
+	title: "Page de contact pour un massage à Courcelles",
 	description: "Vous trouverez ici comment me contacter, par telephone ou mail ou éventuellement facebook si vous le désirez",
 	alternates: {
 		canonical: "https://www.amour-essenciel.com/contact",

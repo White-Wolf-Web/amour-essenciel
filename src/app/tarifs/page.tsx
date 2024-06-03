@@ -9,7 +9,7 @@ import ReikiPriceImg from "../../../public/img/reiki-tarif.webp";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Prix massage à Courcelles",
+	title: "Prix de tous les massages à Courcelles",
 	description: "Vous trouverez ici tous les tarifs pratiqués, tel que massage LaHoChi à 60 € pour 1 heure",
 	alternates: {
 		canonical: "https://www.amour-essenciel.com/tarifs",
