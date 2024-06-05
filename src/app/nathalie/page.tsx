@@ -2,7 +2,7 @@ import React from "react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Qui suis je ? ",
+	title: "Qui suis je ? Une humaine spécialisée par les soins énergétiques",
 	description: "Accueillir et accompagner avec douceur et bienveillance, l’espace d’un instant, dans un moment de lâcher-prise et de détente",
 	alternates: {
 		canonical: "https://www.amour-essenciel.com/nathalie",

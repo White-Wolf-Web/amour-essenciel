@@ -25,7 +25,15 @@ export const metadata: Metadata = {
 					alt: "Amour EssenCiel - pour vous relier à l'Essentiel",
 				},
 			],
-	}
+	},
+	twitter: {
+		title: "Soin énergétique - Massage | Courcelles | Amour EssenCiel",
+	  card: 'summary_large_image',
+	  images: 'https://www.amour-essenciel.com/img/banniere-amour-essentiel.webp',
+	  site:'@amouressenciel',
+	  description:"A Courcelles, chez ‘Amour-EssenCiel’, un soin énergétique, un massage c'est faire l'expérience d'un moment de présence à soi, d'amour et de gratitude."
+  
+	},
 };
 
 export default function Home() {
