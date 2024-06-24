@@ -43,7 +43,7 @@ export const metadata: Metadata = {
 		},
 	},
 	verification: {
-		google: "",
+		google: "_gh5hp1c4bujVleUyNp_uhMWwWsxmByYk2vS5apDbUE",
 	},
 	alternates: {
 		canonical: "https://amour-essenciel.com/",
