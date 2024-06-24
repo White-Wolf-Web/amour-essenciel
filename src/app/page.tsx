@@ -2,6 +2,8 @@ import Image from "next/image";
 import CheminDeVie from '../../public/img/chemin-de-vie-amour-essenciel.webp'
 import type { Metadata } from "next";
 import { MetadataHomePage } from "@/components/metadata/MetadataHomePage";
+import Head from "next/head";
+
 
 export const metadata: Metadata = {
 	title: "Soin énergétique - Massage | Courcelles | Amour EssenCiel",
