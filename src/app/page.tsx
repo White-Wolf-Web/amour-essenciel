@@ -40,6 +40,9 @@ export const metadata: Metadata = {
 
 export default function Home() {
 	return (
+		<><Head>
+		<meta name="google-site-verification" content="_gh5hp1c4bujVleUyNp_uhMWwWsxmByYk2vS5apDbUE" />
+	</Head>
 		<main className=" p-10">
 			<h1>Amour EssenCiel</h1>
 			<h2>Pour vous relier à l&apos;Essentiel</h2>
@@ -65,5 +68,6 @@ export default function Home() {
 	<Image src={CheminDeVie} alt="Chemin de vie dans l'amour essentiel" width={71} height={262}  title="Le chemin de vie" className="mx-auto" />
 	<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataHomePage) }} />
 		</main>
+		</>
 	);
 }
